@@ -18,7 +18,6 @@ provider "azurerm" {
 
 data "azurerm_resource_group" "main" {
   name     = "${var.rgName}"
-  location = "${var.region}"
 }
 
 data "azurerm_virtual_network" "main" {
